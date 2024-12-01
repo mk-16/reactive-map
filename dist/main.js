@@ -12,6 +12,7 @@ var __classPrivateFieldSet = (this && this.__classPrivateFieldSet) || function (
 };
 var _ReactiveMap_instances, _ReactiveMap_subscriptions, _ReactiveMap_cache, _ReactiveMap_deltaKeyVal, _ReactiveMap_propagate;
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.ReactiveMap = void 0;
 const enums_1 = require("./utils/enums");
 class ReactiveMap extends Map {
     constructor(entries) {
@@ -55,6 +56,7 @@ class ReactiveMap extends Map {
         };
     }
 }
+exports.ReactiveMap = ReactiveMap;
 _ReactiveMap_subscriptions = new WeakMap(), _ReactiveMap_cache = new WeakMap(), _ReactiveMap_deltaKeyVal = new WeakMap(), _ReactiveMap_instances = new WeakSet(), _ReactiveMap_propagate = function _ReactiveMap_propagate(event) {
     for (const subscription of __classPrivateFieldGet(this, _ReactiveMap_subscriptions, "f")) {
         new Promise((resolve) => {

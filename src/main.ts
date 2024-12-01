@@ -1,7 +1,7 @@
 import { ReactiveMapEvents } from "./utils/enums";
 import { ReactiveMapCallback, ReactiveMapCallbackWrapper, ReactiveMapEventDelta, ReactiveMapSubscription } from "./utils/types";
 
-class ReactiveMap<Key, Value> extends Map<Key, Value> {
+export class ReactiveMap<Key, Value> extends Map<Key, Value> {
 
     #subscriptions = new Set<ReactiveMapCallbackWrapper<Key, Value>>();
     #cache: Map<Key, Value> | undefined;
