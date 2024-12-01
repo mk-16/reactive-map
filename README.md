@@ -12,7 +12,7 @@ principles, providing reactivity for:
 Notifying the events and deltas, upon invoking those methods.
 
 # Disclaimer
-This is not part of rxjs library, and it is not compatible with rxjs Observable (at this moment).
+This is <strong>NOT</strong> part of rxjs library, and it is not compatible with rxjs Observable (at this moment).
 
 For efficiency and speed, I've decided not to enforce immutability, that is upon <strong>YOU</strong>, the consumer to never manipulate the delta, and only do reads from it.
 
