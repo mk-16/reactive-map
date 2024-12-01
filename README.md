@@ -17,7 +17,7 @@ This is <strong>NOT</strong> part of rxjs library, and it is not compatible with
 For efficiency and speed, I've decided not to enforce immutability, that is upon <strong>YOU</strong>, the consumer to never manipulate the delta, and only do reads from it.
 
 ## install
-`npm i reactive-map`
+`npm i reactive-mapjs`
 
 ## Use
 ```
