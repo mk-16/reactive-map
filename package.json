@@ -1,5 +1,5 @@
 {
-  "name": "reactive-map",
+  "name": "reactive-mapjs",
   "version": "1.0.0",
   "description": "javascript Map wrapped and integrated with Observer design patter for write operations",
   "main": "main.js",
@@ -8,6 +8,7 @@
     "test": "test",
     "nodemon": "nodemon"
   },
+
   "files": [
     "dist"
   ],
