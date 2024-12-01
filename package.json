@@ -1,0 +1,26 @@
+{
+  "name": "reactive-map",
+  "version": "1.0.0",
+  "description": "javascript Map wrapped and integrated with Observer design patter for write operations",
+  "main": "main.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "test",
+    "nodemon": "nodemon"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "reactive-map",
+    "reactive",
+    "map",
+    "observer",
+    "event-driven"
+  ],
+  "author": "Michael Laloush",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
