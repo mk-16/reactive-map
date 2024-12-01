@@ -1,4 +1,4 @@
-import { ReactiveMapEvents } from "./enums";
+import { ReactiveMapEvents } from "./enums.cjs";
 
 export type ReactiveMapCallback<Key, Value> =
     (event: ReactiveMapEvents, delta: ReactiveMapEventDelta<Key, Value> | Map<Key, Value>) => any;

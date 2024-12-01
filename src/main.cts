@@ -1,5 +1,5 @@
-import { ReactiveMapEvents } from "./utils/enums";
-import { ReactiveMapCallback, ReactiveMapCallbackWrapper, ReactiveMapEventDelta, ReactiveMapSubscription } from "./utils/types";
+import { ReactiveMapEvents } from "./utils/enums.cjs";
+import { ReactiveMapCallback, ReactiveMapCallbackWrapper, ReactiveMapEventDelta, ReactiveMapSubscription } from "./utils/types.cjs";
 
 export class ReactiveMap<Key, Value> extends Map<Key, Value> {
 

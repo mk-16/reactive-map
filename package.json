@@ -1,10 +1,9 @@
 {
   "name": "reactive-mapjs",
-  "version": "1.0.4",
+  "version": "1.0.7",
   "description": "javascript Map wrapped and integrated with Observer design patter for write operations",
-  "main": "main.js",
+  "main": "./dist/index.cjs",
   "type": "module",
-  "types": "./dist",
   "scripts": {
     "build": "tsc",
     "test": "test",
